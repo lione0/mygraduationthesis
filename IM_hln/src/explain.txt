@@ -1,3 +1,5 @@
+reference:"http://pirate.shu.edu/~wachsmut/Teaching/CSAS2214/Virtual/Lectures/chat-client-server.html"
+ 
 	Step 1: 
 		A simple server that will accept a single client connection and display everything the client says on the screen. 
 		If the client user types ".bye", the client and the server will both quit.
