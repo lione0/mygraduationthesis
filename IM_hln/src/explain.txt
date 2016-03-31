@@ -1,0 +1,31 @@
+	Step 1: 
+		A simple server that will accept a single client connection and display everything the client says on the screen. 
+		If the client user types ".bye", the client and the server will both quit.
+		一个简单的服务器，可以接收一个客户端连接，并在屏幕上显示客户端输入的内容。当客户端输入“.bye”，客户端和服务器同时退出。
+	
+	
+	Step 2:
+		A server as before, 
+		but this time it will remain 'open' for additional connection once a client has quit. 
+		The server can handle at most one connection at a time.
+		在这一版，一旦客户端退出服务器可以为额外的连接服务器可保持“运行”状态。这个服务器只可以同时处理一个连接。
+		
+	Step 3: 
+		A server as before, 
+		but this time it can handle multiple clients simultaneously. 
+		The output from all connected clients will appear on the server's screen.
+		在这一版，服务器可以同时处理多个客户端连接。所有已连接的客户端输出都将会显示在服务器的屏幕上。
+		
+	Step 4: 
+		A server as before, 
+		but this time it sends all text received from any of the connected clients to all clients. 
+		This means that the server has to receive and send, 
+		and the client has to send as well as receive
+		在这一版，服务器接收所有已连接的客户端发送的信息，并将其发送给所有已连接客户端。这意味着服务器可以接收和发送信息，客户端也可以发送和接搜信息。
+		
+	Step 5: 
+		Wrapping the client from step 4 into a very simple GUI interface but not changing the functionality of either server or client. 
+		The client is implemented as an Applet,
+		but a Frame would have worked just as well (for a stand-alone program).
+		将步骤四的客户端包装进一个简洁的图形化用户交互接口，而不改动服务器和客户端的任何功能，客户端实现于Applet，画面也能正常运行。
+		
