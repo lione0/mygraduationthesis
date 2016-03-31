@@ -1,4 +1,6 @@
 reference:"http://pirate.shu.edu/~wachsmut/Teaching/CSAS2214/Virtual/Lectures/chat-client-server.html"
+
+"http://stackoverflow.com/questions/8542565/how-to-make-a-very-basic-instant-messaging-program-in-pure-java"
 learning :"http://www.cnblogs.com/dolphin0520/category/602384.html"
 
 	Step 1: 
